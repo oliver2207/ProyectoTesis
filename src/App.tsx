@@ -14,6 +14,7 @@ import AddPerfectMascotas from './container/pages/AddMascota/AddPerfectMascotas'
 import FormRegisterCitas from './container/pages/History Citas/FormRegisterCitas'
 import FormRegisterTratmiento from './container/pages/History Citas/FormRegisterTratmiento'
 import FormMascota from './container/pages/AddMascota/FormMascota'
+import PrimerosAuxilios from './container/pages/Auxilios/PrimerosAuxilios'
 
  
 
@@ -39,6 +40,9 @@ function App() {
 
       <Route path='/formtratament' element={<FormRegisterTratmiento/>} />
       <Route path='/formMascota' element={<FormMascota/>} />
+      <Route path='/auxilios' element={<PrimerosAuxilios/>} />
+
+       
 
 
     </Routes>

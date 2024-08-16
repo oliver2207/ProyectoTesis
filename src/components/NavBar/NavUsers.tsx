@@ -96,8 +96,8 @@ function NavUsers() {
                           alt=""
                         />
                         <div className='mt-2'>
-                          <p className='text-lg font-bold'>Vaihinger Vega</p>
-                          <p className='text-xs  '>fhutelemoon53@gmail.com</p>
+                          <p className='text-lg font-bold'>Oliver Gonzalez</p>
+                          <p className='text-xs  '>oliveryasiel21@gmail.com</p>
 
                         </div>
                        

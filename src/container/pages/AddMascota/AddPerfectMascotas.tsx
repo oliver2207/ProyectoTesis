@@ -1,7 +1,7 @@
 import CardPrincipal from '../../../components/AddMascotaC/CardPrincipal'
 import Layouts from '../../../docs/layouts/Layouts'
 import AmikooText from '../../../assets/image/Amikoo-Text.svg'
-import AmikooSin from '../../../assets/image/Logo-Opacidad.svg'
+import AmikooSin from '../../../assets/image/LogoTesis.svg'
 import NavUsers from '../../../components/NavBar/NavUsers'
 
 function AddPerfectMascotas() {
@@ -29,7 +29,7 @@ function AddPerfectMascotas() {
                                         alt=""
                                     />
                                     <span className="sr-only">Your profile</span>
-                                    <span aria-hidden="true" className='  '>Vaihinger Vega1</span>
+                                    <span aria-hidden="true" className='  '>Oliver Gonazalez</span>
                                 </a>
                             </div>
 

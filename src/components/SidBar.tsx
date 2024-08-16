@@ -12,8 +12,9 @@ import {
 
 } from '@heroicons/react/24/outline'
 import { RiHealthBookFill } from "react-icons/ri";
+import { GiHealthNormal } from "react-icons/gi";
 
-import Amikoo1 from '../assets/image/Amikoo1.svg'
+import Amikoo1 from '../assets/image/LogoTesis.svg'
 
 import { Link } from 'react-router-dom'
 const navigation = [
@@ -22,6 +23,7 @@ const navigation = [
   // { name: 'ProFFDjects', href: '#', icon: FolderIcon, current: false },
   { name: 'Calendar', href: '/calendar', icon: CalendarIcon, current: false },
   { name: 'Vacuna & Tratamientos', href: '/tratamientos', icon: RiHealthBookFill, current: false },
+  { name: 'Primeros Auxilios', href: '/auxilios', icon: GiHealthNormal, current: false },
 
   // { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },
   // { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },
@@ -216,11 +218,11 @@ function SidBar() {
                   >
                     <img
                       className="h-8 w-8 rounded-full bg-gray-800"
-                      src="https://media.licdn.com/dms/image/D4E03AQExViGdE2W4DQ/profile-displayphoto-shrink_800_800/0/1696136683711?e=1721260800&v=beta&t=7766pTWWpbwODe0pxEnnJAw7YYJJtgBIqVzsin6PucI"
+                      src="https://img.freepik.com/fotos-premium/perro-realista-4k-colores-calidos-corriendo-bosque_643382-1655.jpg?w=1380"
                       alt=""
                     />
                     <span className="sr-only">Your profile</span>
-                    <span aria-hidden="true">Vaihinger Vega</span>
+                    <span aria-hidden="true">Firulai</span>
                   </a>
                 </li>
               </ul>
@@ -237,7 +239,7 @@ function SidBar() {
             <span className="sr-only">Your profile</span>
             <img
               className="h-8 w-8 rounded-full bg-gray-800"
-              src="https://media.licdn.com/dms/image/D4E03AQExViGdE2W4DQ/profile-displayphoto-shrink_800_800/0/1696136683711?e=1721260800&v=beta&t=7766pTWWpbwODe0pxEnnJAw7YYJJtgBIqVzsin6PucI"
+              src="https://img.freepik.com/fotos-premium/perro-realista-4k-colores-calidos-corriendo-bosque_643382-1655.jpg?w=1380"
               alt=""
             />
           </a>
