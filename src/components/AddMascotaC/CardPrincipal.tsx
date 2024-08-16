@@ -42,7 +42,7 @@ function CardPrincipal() {
                 <div className="flex  justify-center ">
                     <div className="mt-1 md:mt-0 pt-5 pb-7 ">
                         <h1 className="  text-[25px] md:text-[30px] font-bold text-center text-white ">
-                            Lista de Mascotas
+                            Listado de Mascotas
                         </h1>
 
                     </div>
